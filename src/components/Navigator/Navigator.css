@@ -1,0 +1,23 @@
+
+.navigatorDesign {
+    height: 2em;
+    width: 5.5em;
+
+    background-color: red;
+    transition: 0.2s;
+
+    border-radius: 2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    cursor: pointer;
+};
+
+.navigatorDesign:hover {
+    background-color: darkred;
+
+    transition: 0.2s;
+}
